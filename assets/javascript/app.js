@@ -85,3 +85,5 @@ $(document).ready( function () {
             appendTableRow(name, destination, frequency, nextTrain, minsAway);
         })     
     }, 60000)
+
+$('#title').addClass('animated shake');
